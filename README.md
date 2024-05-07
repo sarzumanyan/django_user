@@ -19,14 +19,14 @@ pip install -r requirements.txt
    example `SECRET_KEY=value_of_secret_key`
 7. Make migrations
  ```bash
-   python manage.py makemigrations
-   python manage.py migrate
+ python manage.py makemigrations
+ python manage.py migrate
  ```
 8. Create superuser
-   ```bash
-   python manage.py createsuperuser
-   ```
+```bash
+python manage.py createsuperuser
+```
 9. Run the application
-   ```bash
-   python manage.py runserver
-   ```
+```bash
+python manage.py runserver
+```
